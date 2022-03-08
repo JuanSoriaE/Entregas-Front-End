@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería X</title>
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka">
+</head>
+
+<body>
+    <nav>
+        <img src="./assets/texto.png" alt="Logo de Pastelería X">
+
+        <a href="./indexAdmin.html" class="link">Administrador</a>
+        <a href="./pedido.html" class="link">Hacer pedido</a>
+        <a href="./indexCliente.html" class="link">Inicio</a>
+    </nav>
+    <div class="title">
+        <h1>¿Estás listo para hacer tu pedido?</h1>
+    </div>
+    <p class="padding0202">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid libero sit debitis ipsa
+        blanditiis natus error ipsum id dignissimos asperiores. Dolores officia, aliquam odio, ducimus cupiditate, nemo
+        illum assumenda rem reiciendis quasi placeat laboriosam repudiandae tempore! Architecto inventore voluptas
+        minima et? Sunt nulla assumenda tempora minus quas ducimus aliquid dolorum.</p>
+
+    <div class="mainContent">
+        <div class="mainContainer">
+            <h2 class="title">Empezemos con elegir tus sabores favoritos</h2>
+            <p class="padding0202">Puedes seleccionar máximo 3 sabores, ya que los pasteles cuentan con 3 capas en su
+                interior.
+            </p>
+            <div class="padding0202">
+                <label for="solo1Sabor">Solo de 1 sabor</label>
+                <input type="checkbox" name="solo1Sabor" id="solo1Sabor">
+                <br>
+
+                <label for="sabor1">Sabor 1</label>
+                <select name="sabor1" id="sabor1">
+                    <option value="capuchino">Capuchino</option>
+                    <option value="3-leches">3 Leches</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="queso">Queso</option>
+                    <option value="zanahoria">Zanahoria</option>
+                </select><br>
+
+                <label for="sabor2">Sabor 2</label>
+                <select name="sabor2" id="sabor2">
+                    <option value="capuchino">Capuchino</option>
+                    <option value="3-leches">3 Leches</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="queso">Queso</option>
+                    <option value="zanahoria">Zanahoria</option>
+                </select><br>
+
+                <label for="sabor3">Sabor 3</label>
+                <select name="sabor3" id="sabor3">
+                    <option value="capuchino">Capuchino</option>
+                    <option value="3-leches">3 Leches</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="queso">Queso</option>
+                    <option value="zanahoria">Zanahoria</option>
+                </select><br>
+            </div>
+        </div>
+
+        <div class="mainContainer">
+            <h2 class="title">Ahora selecciona que adornos quieres que lleve</h2>
+            <p class="padding0202">Puedes seleccionar los adornos que desees</p>
+            <div class="padding0202">
+                <input type="checkbox" name="chispasChocolate" id="chispasChocolate">
+                <label for="chispasChocolate">Chispas de Chocolate</label>
+                <br>
+
+                <input type="checkbox" name="chispasColores" id="chispasColores">
+                <label for="chispasColores">Chispas de Colores</label>
+                <br>
+
+                <input type="checkbox" name="chocolateBlanco" id="chocolateBlanco">
+                <label for="chocolateBlanco">Chocolate Blanco</label>
+                <br>
+
+                <input type="checkbox" name="chocolateDerretido" id="chocolateDerretido">
+                <label for="chocolateDerretido">Chocolate Derretido</label>
+                <br>
+
+                <input type="checkbox" name="fruta" id="fruta">
+                <label for="fruta">Frutas Partidas</label>
+                <br>
+
+                <input type="checkbox" name="frutosRojos" id="frutosRojos">
+                <label for="frutosRojos">Frutos Rojos</label>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <center>
+        <h2 class="title">Por último necesitamos tus datos para poder proceder a elaborar la orden</h2>
+        <form action="#">
+            <center>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" class="inputTexto">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="telefono" id="telefono" class="inputTexto">
+
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" name="correo" id="correo" class="inputTexto">
+
+                <label for="descripcion">Agrega una descripción por si</label><br>
+                <label for="descripcion"> requrieres algo específico en el pastel</label>
+                <textarea name="descripcion" id="descripcion" class="inputTexto"></textarea>
+
+                <input type="reset" value="Limpiar formulario">
+                <input type="submit" value="Hacer pedido">
+            </center>
+        </form>
+    </center>
+
+    <footer>
+        <div>
+            <p>Dirección: CDMX Calle 1 Colonia 2</p>
+            <p>Teléfono: +52 5555555555</p>
+            <p>Horarios: Lunes a Viernes - 12pm a 10pm | Sábado y Domingo - 2pm a 10pm</p>
+        </div>
+        <img src="./assets/log-con-texto.png" alt="Logo con el nombre de la pastelería">
+    </footer>
+</body>
+
+</html>
