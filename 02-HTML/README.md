@@ -1,7 +1,7 @@
 ## 02 - HTML
 Código y capturas de la misión HTML.
 
-1. [Código](02-HTML/Codigo)
+1. [Código](./Codigo)
 2. [Capturas de pantalla (archivos)](./Capturas)
 
 ### Capturas de Pantalla
