@@ -2,7 +2,7 @@
 Código y captura de la misión CSS.
 
 1. [Código](./Codigo)
-2. [Capturas de pantalla (archivos)](./Capturas)
+2. [Captura de pantalla (archivo)](./Capturas)
 
 ### Captura de Pantalla
 
