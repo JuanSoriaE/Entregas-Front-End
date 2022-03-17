@@ -10,4 +10,4 @@ Página replicada
 ![](./Capturas/captura.png)
 
 Poster publicitario
-![](./Capturas/advertising-poster.png)
+![](./Capturas/advertising-poster.jpg)
