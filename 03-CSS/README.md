@@ -1,4 +1,4 @@
-## 02 - HTML
+## 03 - CSS
 Código y captura de la misión CSS.
 
 1. [Código](./Codigo)
