@@ -2,9 +2,12 @@
 Código y captura de la misión CSS.
 
 1. [Código](./Codigo)
-2. [Captura de pantalla (archivo)](./captura.png)
+2. [Capturas de pantalla (archivos)](./Capturas)
 
-### Captura de Pantalla
+### Capturas de Pantalla
 
 Página replicada
-![](./captura.png)
+![](./Capturas/captura.png)
+
+Poster publicitario
+![](./Capturas/advertising-poster.png)
