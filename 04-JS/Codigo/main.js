@@ -8,8 +8,8 @@ const pokemonHeight = document.getElementById('pokemonHeight');
 const pokemonWeight = document.getElementById('pokemonWeight');
 
 function findPokemon() {
-    var url = `https://pokeapi.co/api/v2/pokemon/${pokemonInput.value.toLowerCase()}`;
     if (pokemonInput.value != '') {
+        var url = `https://pokeapi.co/api/v2/pokemon/${pokemonInput.value.toLowerCase()}`;
         fetch(url).then(res => {
             if (res.status != 200) pokemonNotFound();
             return res.json();
